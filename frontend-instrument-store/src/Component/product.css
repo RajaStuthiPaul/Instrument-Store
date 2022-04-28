@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+
+.grid{
+  margin-left: 300px;
+  margin-right:300px;
+}
+.card{
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px #DDD;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #33435A;
+  position: relative;
+}
+.card11{
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px #DDD;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #33435A;
+  position: relative;
+}
+.card1{
+  width: 250px;
+  height: 400px;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 10px #DDD;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #33435A;
+  position: relative;
+  margin-right: 10px;
+}
+.img{
+  width: 100%;
+  height: 160px;
+  padding: 10px;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  object-fit:contain
+}
+h2{
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+}
+.price{
+  font-weight: bold;
+  font-size: 18px;
+  color: #E72F3A;
+  margin-bottom: 10px;
+}
+.tag,
+.rate{
+  position: absolute;
+  color: #FFF;
+  padding: 3px 10px 6px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.tag{
+    background-color: #E72F3A;
+   top: 10px;
+  left: 0;
+}
+.rate{
+  background-color: #33435A;
+   top: 10px;
+  right: 0;
+}
+.desc{
+  font-size: 14px;
+  text-align: justify;
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}
+ .btnfav{
+  display: inline-block;
+  position: absolute;
+  margin-bottom: 15px;
+  left: 0;
+  top:234;
+  right: 90;
+  bottom:0 !important; 
+  width: 50%;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #33435A;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  transition: backgound 0.5s linear;
+} 
+ .btncart{
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  margin-bottom: 15px;
+  left: 100 !important;
+  right: 0 !important;
+  bottom:0 !important;
+  height:60px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #33435A;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  transition: backgound 0.5s linear;
+} 
+.btn:hover{
+  background: #455a77;
+}

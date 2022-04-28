@@ -1,0 +1,30 @@
+version: '3'
+services:
+    backend:
+        build: backend-instrument-store
+        ports:
+            - 8080:5000
+    frontend:
+        build: frontend-instrument-store
+        ports: 
+            - 80:3000
+        depends_on:
+            - backend
+    redis-server:
+        image: 'redis'
+        restart: always
+        hostname: redisdb
+        ports:
+            - 6379:6379
+        volumes:
+            - redis-data:/data/rdb
+        networks:
+            - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  redis-data:
+  node_modules:
